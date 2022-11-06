@@ -1,0 +1,112 @@
+span{
+    color: rgb(255, 255, 0);
+    margin-left: 50px;
+    font-size: 90px;
+    
+}
+body{
+    background-color:rgb(13, 188, 101);
+}
+#container{
+    /* border: 1px solid black; */
+    height: auto;
+    margin-left: 50px;
+    padding: 30px;
+    /* margin-top: 30px; */
+
+}
+object{
+    line-height: 0px;
+    margin: -20px;
+}
+#weeklyDiv>div{
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 30px;
+
+    
+}
+iframe{
+    height: 400px;
+    width: 400px;
+}
+#weeklyDiv>div>p{
+    line-height: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#weeklyDiv>div>h3{
+    color:rgb(27, 27, 180) ; 
+    font-size: 23px;
+}
+#weeklyDiv{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    line-height: 0px;
+    text-align: center;
+    
+}
+#container>p{
+    color:rgb(27, 27, 180) ;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* #container>div{
+    margin-left: 30px;
+} */
+#mainContainer{
+    display: flex;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    
+}
+#cityName{
+    padding: 4px;
+    border-radius: 12px;
+    text-align: center;
+    
+    background-color:white;
+}
+button,input{
+    /* padding: 2px; */
+    /* margin-left:30px ; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 30px;
+}
+button{
+    padding: 4px;
+    border-radius: 10px;
+    color:white;
+    background-color: teal;
+    border: none;
+}
+button:hover{
+    background-color: rgb(11, 151, 151);
+}
+/* #mapouter{
+    display: flex;
+    justify-content: flex-end;
+} */
+h1{
+    text-align: center;
+    color: rgb(173, 255, 49);
+}
+.mapouter{
+    /* margin-top: 60px; */
+    /* margin-right: 0%; */
+    margin: auto;
+    /* margin: auto; */
+}
